@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Register</title>
+    <link rel="stylesheet" href="allcss/login.css">
+</head>
+<body>
+    <div class="log">
+        <div class="form_box2">
+            <div class="div_box">
+                <button type="button" class="div_btn"><a href="login.html">Log In</a></button>
+               <button type="button" class="div_btn"><a href="Register.html">Register</a></button>
+           </div>
+            <div class="social-icon">
+              <img src="./image/wsp.png">
+              <img src="./image/ins.png">
+              <img src="./image/tw.png">
+           </div> 
+        
+               <form id="form" class="inpue_gp" onsubmit="getData(event)">
+                <input type="text" name="yourname" class="input_field" placeholder="Your Name" value="Niraj" >
+                <input type="text" name="userid" class="input_field" placeholder="User Id" id="User_Id" value="Niraj45" >
+                <input type="number" name="contact" class="input_field" placeholder="Enter Contact No." value="7481955476" >
+                <input type="email" name="mail" class="input_field" placeholder="Enter mail id" value="niraj@gmail.com" >
+                <input type="text" name="password" class="input_field" placeholder="Enter Password" value="12345678" >
+                <input type="text" name="College" class="input_field" placeholder="Enter Your College Name" value="AryaCollage" >
+                <h3 class="notify"></h3>
+                <button type="submit" class="submit_btn">Register</button>
+               </form> 
+        </div>
+    </div>
+    <script src="./alljs/Register.js"></script>
+</body>
+</html>

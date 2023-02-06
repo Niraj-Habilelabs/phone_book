@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Register</title>
+    <link rel="stylesheet" href="allcss/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="log">
+        <div class="form_box">
+            <div class="div_box">
+                <button type="button" class="div_btn"><a href="./login.html">Log In</a></button>
+               <button type="button" class="div_btn"><a href="./Register.html">Register</a></button>
+           </div>
+            <div class="social-icon">
+              <img src="./image/wsp.png">
+              <img src="./image/ins.png">
+              <img src="./image/tw.png">
+           </div> 
+        
+               <form class="inpue_gp" onsubmit="getData(event)">
+                <input type="text" name="userid" class="input_field login_user" placeholder="User Id" value="niraj@gmail.com" style="width:90%" >
+                <input type="Password" name="password" class="input_field login_password" placeholder="Enter Password" value="12345678" style="width:90%" >
+                
+                    <i class="fa fa-eye" id="eye" onclick="toggle()"></i>
+            
+                <h3 class="notify"></h3>
+                <button type="submit" class="submit_btn">Log In</button>
+                <!-- <input type="button" name="log" id="logButton" class="submit_btn" value="Login" onclick="myfunction()"> -->
+               </form> 
+        </div>
+    </div>
+    <script src="./alljs/Login.js"></script>
+</body>
+</html>

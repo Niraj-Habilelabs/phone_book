@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.log {
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form_box{
+    width: 370px;
+    height: 450px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 
+    7px;
+}
+.div_box{
+    margin:30px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div_btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    box-shadow: 0 0 10px 4px #13cc10;
+    border-radius: 30px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position:absolute;
+    width: 110px;
+    height: 100%;
+    background: linker-gradient(to right, rgb(82, 60, 60),#13cc10);
+    border-radius: 30px;
+    transition: .7s;
+
+}
+.social-icon{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icon img{
+    width: 30px;
+    margin: 0,12px;
+    box-shadow: 0 0 20px 0 #cb6161;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.inpue_gp{
+    padding-left: 17px;
+    top: 200px;
+    position: absolute;
+    width: 320px;
+    transition: .7s;
+}
+.input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 7px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #4d1265;
+    outline: none;
+    background: transparent;
+}
+.submit_btn{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: black;
+    margin: 25px;
+    background: linear-gradient(to right,#e80422,#888080);
+    border: 0;
+    outline: none;
+    border-radius: 27px;
+}
+.form_box2{
+    width: 370px;
+    height: 610px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 
+    7px;
+}
+
+::placeholder{
+    color: #9a9a9a;
+    font-weight: 400;
+}
+span{
+    position: absolute;
+    right: 15px;
+    transform: translate(0,-50%);
+    top: 50%;
+    cursor: pointer;
+
+}
+.fa{
+    font-size: 20px;
+    color:#888080
+}
+
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}

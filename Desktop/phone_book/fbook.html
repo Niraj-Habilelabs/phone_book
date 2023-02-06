@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone Book</title>
+    <link rel="stylesheet" href="allcss/fbook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="mainDiv">
+                <div class="form_box">
+                    <form id="form" class="inpue_gp" onsubmit="getData(event)">
+                        <input type="text" class="input_field" name="yourname" placeholder="Your Name" value="Niraj">
+                        <input type="text" class="input_field" name="contact" placeholder="Number" password=""
+                            value="7481955476">
+                        <input type="text" class="input_field" name="relation" placeholder="Relation" value="Human">
+                        <h3 class="notify"></h3>
+                        <div class="buttons">
+                            <button type="submit" class="submit_btn">Submit</button>
+                            <button type="reset" class="submit_btn">cancel</button>
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="form_box">
+                    <form id="getform" class="inpue_gp" onsubmit="getData(evnt)">
+                        <table border="1" align="center" class="getTable">
+                            <tr>
+                                <th>S.N</th>
+                                <th>Your Name</th>
+                                <th>Number</th>
+                                <th>Relation</th>
+                                <th>Edit</th>
+                                <th>Action</th>
+                            </tr>                            
+                        </table>
+                    </form>
+                </div>
+
+                </div>
+
+    <script src="./alljs/fbook.js"></script>
+    <!-- <script src="getvalues.js"></script> -->
+</body>
+
+</html>
